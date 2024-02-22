@@ -1,0 +1,43 @@
+{
+  "name": "quicksortjs",
+  "version": "0.0.5",
+  "author": "Risto Stevcev <risto1@gmail.com>",
+  "description": "A quicksort implementation in javascript",
+  "license": "BSD",
+  "main": "./lib/quicksortjs.js",
+  "bin": "./bin/quicksortjs.js",
+  "repository": {
+    "type": "git",
+    "url": "Risto-Stevcev/javascript-quicksort"
+  },
+  "homepage": "http://risto-stevcev.github.io/javascript-quicksort/",
+  "scripts": {
+    "test": "grunt"
+  },
+  "engines": {
+    "node": ">=0.10.0 <=0.10.33"
+  },
+  "directories": {
+    "doc": "./doc",
+    "lib": "./lib"
+  },
+  "keywords": [
+    "quicksort",
+    "qsort",
+    "sort",
+    "sorting",
+    "algorithm",
+    "algorithms"
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-codeclimate": "0.0.1-1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-coveralls": "^1.0.0",
+    "grunt-mocha-istanbul": "^2.2.0",
+    "grunt-simple-mocha": "^0.4.0",
+    "istanbul": "^0.3.5",
+    "should": "^4.1.0"
+  }
+}
